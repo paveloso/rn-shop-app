@@ -24,6 +24,7 @@ const UserProductsScreen = props => {
     };
 
     const editProductHandler = (id) => {
+        console.log(id);
         props.navigation.navigate('EditProduct', {productId: id});
     };
 
